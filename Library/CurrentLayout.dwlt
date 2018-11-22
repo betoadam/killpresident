@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 881, y: 471}
-  m_MaxSize: {x: 14004, y: 14021}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 111
+  controlID: 125
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 635
-  m_MinSize: {x: 881, y: 471}
-  m_MaxSize: {x: 14004, y: 14021}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 112
+  controlID: 126
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,10 +153,10 @@ MonoBehaviour:
     y: 0
     width: 947
     height: 635
-  m_MinSize: {x: 604, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 113
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,10 +177,10 @@ MonoBehaviour:
     y: 0
     width: 947
     height: 364
-  m_MinSize: {x: 604, y: 200}
-  m_MaxSize: {x: 6052, y: 4000}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 114
+  controlID: 12
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,15 +224,15 @@ MonoBehaviour:
     y: 0
     width: 715
     height: 364
-  m_MinSize: {x: 404, y: 121}
-  m_MaxSize: {x: 2052, y: 2069}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 0
     width: 419
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
@@ -321,8 +321,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -290
-    m_HBaseRangeMax: 290
+    m_HBaseRangeMin: -355.5
+    m_HBaseRangeMax: 355.5
     m_VBaseRangeMin: -163
     m_VBaseRangeMax: 163
     m_HAllowExceedBaseRangeMin: 1
@@ -391,10 +391,10 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 282d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 68a2ffff3aa3fffffca3ffffb4a6ffffe0fbffff0000000008050200
+    scrollPos: {x: 0, y: 138}
+    m_SelectedIDs: 56c7fbff
+    m_LastClickedID: -276650
+    m_ExpandedIDs: 4cc7fbff52c7fbffe80afdffb821fdffc021fdff32e7ffff8ae8ffff90e8ffff78faffffc8faffff66fbffff6cfbffff7cfbffff7efbffff80fbffff8cfbffffc6fbffffe0fbffff000000000a390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,14 +444,14 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2661.4313629565513
+  lastFramingTime: 1964.219550800505
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.260996, y: 1.4451712, z: 0.72136825}
+    m_Target: {x: 6.643543, y: 0.9115154, z: -1.5338873}
     speed: 2
-    m_Value: {x: 4.260996, y: 1.4451712, z: 0.72136825}
+    m_Value: {x: 6.643543, y: 0.9115154, z: -1.5338873}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,13 +479,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0010318238, y: -0.9953675, z: -0.09553589, w: 0.010738505}
+    m_Target: {x: -0.14349751, y: -0.01070928, z: 0.0015531871, w: -0.98959154}
     speed: 2
-    m_Value: {x: -0.0010318238, y: -0.9953675, z: -0.09553589, w: 0.010738505}
+    m_Value: {x: -0.14349751, y: -0.01070928, z: 0.0015531871, w: -0.98959154}
   m_Size:
-    m_Target: 0.029220104
+    m_Target: 0.80321854
     speed: 2
-    m_Value: 0.029220104
+    m_Value: 0.80321854
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -559,20 +559,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Itens/Prefabs
+    - Assets/Wooden floor/Wooden floor 05
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Itens/Prefabs
+  - Assets/Wooden floor/Wooden floor 05
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\beto_\Documentos\Kill the President
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 282d0000
-    m_LastClickedID: 11560
-    m_ExpandedIDs: 00000000de2c00000c2e0000562f000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 44370000
+    m_LastClickedID: 14148
+    m_ExpandedIDs: 00000000de2c00000e2e00005a2f0000e637000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -600,7 +600,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de2c0000562f0000
+    m_ExpandedIDs: 00000000de2c00000e2e00005a2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -652,7 +652,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 2536}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 345
 --- !u!114 &18
