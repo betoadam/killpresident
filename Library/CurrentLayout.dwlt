@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 101
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 635
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 126
+  controlID: 102
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
     y: 0
     width: 947
     height: 635
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 11
@@ -177,8 +177,8 @@ MonoBehaviour:
     y: 0
     width: 947
     height: 364
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 12
 --- !u!114 &9
@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 232
     height: 364
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 0
     width: 419
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -391,10 +391,10 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 138}
-    m_SelectedIDs: 56c7fbff
-    m_LastClickedID: -276650
-    m_ExpandedIDs: 4cc7fbff52c7fbffe80afdffb821fdffc021fdff32e7ffff8ae8ffff90e8ffff78faffffc8faffff66fbffff6cfbffff7cfbffff7efbffff80fbffff8cfbffffc6fbffffe0fbffff000000000a390000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 62040200
+    m_LastClickedID: 132194
+    m_ExpandedIDs: 9c9ceeff889deeff689eeeff26a1eeff32a1eeffaeabeeff96aceeff74adeeff36b0eeffe615f6ff86e5feffa8e5feffcae5feffa8ecfeffeaecfeff34f4feffb6f9feff9a06ffff8687ffffe0fbffff00000000443900003c070200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,14 +444,14 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1964.219550800505
+  lastFramingTime: 2044.1137646671773
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.643543, y: 0.9115154, z: -1.5338873}
+    m_Target: {x: -7.5781546, y: -11.410537, z: 0.70454526}
     speed: 2
-    m_Value: {x: 6.643543, y: 0.9115154, z: -1.5338873}
+    m_Value: {x: -7.5781546, y: -11.410537, z: 0.70454526}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,13 +479,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14349751, y: -0.01070928, z: 0.0015531871, w: -0.98959154}
+    m_Target: {x: -0.22131965, y: 0.72901493, z: -0.2751523, w: -0.5863839}
     speed: 2
-    m_Value: {x: -0.14349751, y: -0.01070928, z: 0.0015531871, w: -0.98959154}
+    m_Value: {x: -0.22131965, y: 0.72901493, z: -0.2751523, w: -0.5863839}
   m_Size:
-    m_Target: 0.80321854
+    m_Target: 24.560137
     speed: 2
-    m_Value: 0.80321854
+    m_Value: 24.560137
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -559,20 +559,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Wooden floor/Wooden floor 05
+    - Assets/LowpolyStreetPack/Meshes/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Wooden floor/Wooden floor 05
+  - Assets/LowpolyStreetPack/Meshes/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Users\beto_\Documentos\Kill the President
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 44370000
-    m_LastClickedID: 14148
-    m_ExpandedIDs: 00000000de2c00000e2e00005a2f0000e637000000ca9a3b
+    scrollPos: {x: 0, y: 27}
+    m_SelectedIDs: 0ce10000
+    m_LastClickedID: 57612
+    m_ExpandedIDs: 00000000de2c0000dee00000f0e00000f8e00000fee0000010e1000042e1000046e10000628401006c8401008284010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -600,7 +600,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de2c00000e2e00005a2f0000
+    m_ExpandedIDs: 00000000de2c0000122e0000602f0000f0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,7 +628,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300002c280000c63500006a3200005a3a00005c32000000000000a241000022300000
+    m_ExpandedInstanceIDs: c62300002c280000c63500006a3200005a3a00005c320000a24100002230000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
