@@ -2,8 +2,8 @@ Android
 PlayerPath?
 D:/Users/beto_/Desktop/KP.apk
 SceneListBegin?
-Assets/Scenes/Cidade.unity
 Assets/Scenes/Casa.unity
+Assets/Scenes/Cidade.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 c5d466bec0f77b2e519c677e4e85de44 Assembly-CSharp.dll:.GvrDropdown
