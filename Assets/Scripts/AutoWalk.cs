@@ -8,7 +8,7 @@ public class AutoWalk : MonoBehaviour {
 	public Transform player;
 	public float speed;
 	private bool isWaling;
-	private const int MAX_ANGLE = 90;
+	private const int MAX_ANGLE = 30;
 	public float threshold;
 	public bool freezeY;
 
