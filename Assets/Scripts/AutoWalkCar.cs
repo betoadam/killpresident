@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class AutoWalkCar : MonoBehaviour {
 	private bool isLookingBack = false;
+	public AudioSource moeda_sound;
 	public GameObject Meuplacar;
+	public GameObject Hint;
+	public GameObject Chegada;
 	public Transform player;
 	public float speed;
 	private bool isWaling;
@@ -75,6 +78,10 @@ public class AutoWalkCar : MonoBehaviour {
 
 	void FixedUpdate () //fixed update is more physics realistic
 	{
+		if(placar>9){
+			Chegada.GetComponent<Collider>().enabled=true;
+			Hint.gameObject.SetActive(true);
+		}
 		Camera ();
 		//Forward = (Input.GetAxis("Vertical")*-1);
 		//Turn = Input.GetAxis("Horizontal");
@@ -146,8 +153,12 @@ public class AutoWalkCar : MonoBehaviour {
 	}
 	private void OnTriggerEnter(Collider other) {
 		if(other.gameObject.CompareTag("Dinheiro")){
+			moeda_sound.Play();
 			Destroy(other.gameObject);
 			AtualizaPlacar(1);
+		}
+		if(other.gameObject.CompareTag("Finish")){
+			SceneManager.LoadScene("Ganhou");
 		}
 	}
 	private void AtualizaPlacar(int pontos){
