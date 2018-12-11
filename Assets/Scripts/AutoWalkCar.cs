@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class AutoWalkCar : MonoBehaviour {
 	private bool isLookingBack = false;
+	static string minhacena;
 	public AudioSource moeda_sound;
 	public GameObject Meuplacar;
 	public GameObject Hint;
@@ -72,7 +73,7 @@ public class AutoWalkCar : MonoBehaviour {
 	}
 	private void OnCollisionEnter(Collision other) {
 		if(other.gameObject.CompareTag("Parede")){
-			SceneManager.LoadScene("Cidade");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 	}
 
@@ -158,6 +159,7 @@ public class AutoWalkCar : MonoBehaviour {
 			AtualizaPlacar(1);
 		}
 		if(other.gameObject.CompareTag("Finish")){
+			minhacena = "CidadeRetorno";
 			SceneManager.LoadScene("Ganhou");
 		}
 	}

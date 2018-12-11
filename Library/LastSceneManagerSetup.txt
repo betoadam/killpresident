@@ -3,14 +3,20 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Cidade.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Ganhou.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/Menu.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/CutScene.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/Scenes/LojaArmas.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/CidadeRetorno.unity
+  isLoaded: 1
+  isActive: 1
