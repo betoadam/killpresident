@@ -160,7 +160,10 @@ public class AutoWalkCar : MonoBehaviour {
 		}
 		if(other.gameObject.CompareTag("Finish")){
 			minhacena = "CidadeRetorno";
-			SceneManager.LoadScene("Ganhou");
+			SceneManager.LoadScene("LojaArmas");
+		}
+		if(other.gameObject.CompareTag("Point")){
+			SceneManager.LoadScene("Universidade");
 		}
 	}
 	private void AtualizaPlacar(int pontos){

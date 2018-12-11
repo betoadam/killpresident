@@ -165,6 +165,7 @@
      <Compile Include="Assets\MenuScript.cs" />
      <Compile Include="Assets\MyScripts.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\PointController.cs" />
      <Compile Include="Assets\Scripts\ArmaSelecionada.cs" />
      <Compile Include="Assets\Scripts\AutoWalk.cs" />
      <Compile Include="Assets\Scripts\AutoWalkCar.cs" />
