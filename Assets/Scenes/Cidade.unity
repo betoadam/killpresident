@@ -10074,7 +10074,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 787261310}
-  - component: {fileID: 787261309}
   - component: {fileID: 787261308}
   - component: {fileID: 787261307}
   - component: {fileID: 787261312}
@@ -10117,25 +10116,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!95 &787261309
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 95371985547973256, guid: 1438c62ddd566ed4fb5a3cc317e1e516,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 787261306}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ddd4b346e1d530a43b6bda02e3037ad1, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &787261310
 Transform:
   m_ObjectHideFlags: 0
@@ -10175,6 +10155,7 @@ MonoBehaviour:
   Hint: {fileID: 791236017}
   Objetivos: {fileID: 397527744}
   Chegada: {fileID: 1342803624}
+  volante: {fileID: 1979398768}
   player: {fileID: 856292414}
   speed: 0.08
   threshold: 10
@@ -10772,8 +10753,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 856292413}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.010281563, y: 0.66172457, z: 0.12883615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 515595579}
@@ -20329,7 +20310,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1571085624}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25400,7 +25381,7 @@ GameObject:
   - component: {fileID: 1979398770}
   - component: {fileID: 1979398771}
   m_Layer: 0
-  m_Name: SteeringWheel_LOD0
+  m_Name: Volante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25413,13 +25394,13 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1979398768}
-  m_LocalRotation: {x: 0.13052623, y: -0, z: -0, w: 0.9914449}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
   m_LocalPosition: {x: -0.33953193, y: 0.9059856, z: 0.5334542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1269843890}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.000001, y: 0, z: 0}
 --- !u!33 &1979398770
 MeshFilter:
   m_ObjectHideFlags: 0

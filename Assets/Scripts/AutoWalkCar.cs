@@ -9,6 +9,7 @@ public class AutoWalkCar : MonoBehaviour {
 	public GameObject Hint;
 	public GameObject Objetivos;
 	public GameObject Chegada;
+	public GameObject volante;
 	public Transform player;
 	public float speed;
 	private bool isWaling;

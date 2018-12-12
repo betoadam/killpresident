@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutScene.unity
     guid: 4e31dd4e7187048468ecec01c9428139
+  - enabled: 1
+    path: Assets/Scenes/LojaArmas.unity
+    guid: b70a349a9a3b81743b4b9b3b7def5d3c
+  - enabled: 1
+    path: Assets/Scenes/CidadeRetorno.unity
+    guid: 7c63118b7e68bc645b84aa9f7cd36f3e
+  - enabled: 1
+    path: Assets/Scenes/Universidade.unity
+    guid: 6cb5dee7d5fa4f24982efad2664ab92d
   m_configObjects: {}
