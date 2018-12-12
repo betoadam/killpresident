@@ -11784,7 +11784,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 400668419}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9900014, y: 2.8100002, z: 7.110002}
+  m_LocalPosition: {x: -0.86, y: 2.8100002, z: 7.110002}
   m_LocalScale: {x: 0.20000012, y: 0.2, z: 0.20000012}
   m_Children: []
   m_Father: {fileID: 1758860837}
@@ -11797,7 +11797,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 400668419}
-  m_Text: 'Placar: 0'
+  m_Text: "V\xE1 at\xE9 a UNIVERSIDADE!"
   m_OffsetZ: 0
   m_CharacterSize: 1.86
   m_LineSpacing: 1
@@ -25559,6 +25559,7 @@ MonoBehaviour:
   moeda_sound: {fileID: 1331619054}
   Meuplacar: {fileID: 400668419}
   Hint: {fileID: 1886692157}
+  Objetivos: {fileID: 0}
   Chegada: {fileID: 0}
   player: {fileID: 823052939}
   speed: 0.08

@@ -68,6 +68,8 @@
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\HornetRifle\Scripts\Editor\HornetRifleControllerEditor.cs" />
+     <Compile Include="Assets\HornetRifle\Scripts\Editor\HornetRifleSplash.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Users/beto_/Documentos/Kill the President/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

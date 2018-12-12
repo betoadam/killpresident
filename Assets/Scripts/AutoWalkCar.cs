@@ -7,6 +7,7 @@ public class AutoWalkCar : MonoBehaviour {
 	public AudioSource moeda_sound;
 	public GameObject Meuplacar;
 	public GameObject Hint;
+	public GameObject Objetivos;
 	public GameObject Chegada;
 	public Transform player;
 	public float speed;
@@ -82,6 +83,7 @@ public class AutoWalkCar : MonoBehaviour {
 		if(placar>9){
 			Chegada.GetComponent<Collider>().enabled=true;
 			Hint.gameObject.SetActive(true);
+			Objetivos.gameObject.SetActive(false);
 		}
 		Camera ();
 		//Forward = (Input.GetAxis("Vertical")*-1);

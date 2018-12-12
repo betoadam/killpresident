@@ -9,6 +9,7 @@ public class ArmaSelecionada : MonoBehaviour {
 	static int arma;
 	public GameObject shotgun;
 	public GameObject sniper;
+	private AudioClip ac;
 	void Start () {
 		Debug.Log(arma.ToString());
 		if(SceneManager.GetActiveScene().name=="Cidade"){
@@ -28,7 +29,15 @@ public class ArmaSelecionada : MonoBehaviour {
 		
 	}
 	public void pegaShotgun(){
+		ac = Resources.Load("gunshop") as AudioClip;
+        AudioSource.PlayClipAtPoint(ac, Vector3.zero);
 		arma = 1;
+		SceneManager.LoadScene("CidadeRetorno");
+	}
+	public void pegaRifle(){
+		ac = Resources.Load("gunshop") as AudioClip;
+        AudioSource.PlayClipAtPoint(ac, Vector3.zero);
+		arma = 2;
 		SceneManager.LoadScene("CidadeRetorno");
 	}
 }
