@@ -177,6 +177,7 @@
      <Compile Include="Assets\Scripts\PointController.cs" />
      <Compile Include="Assets\Scripts\PreparaTiro.cs" />
      <Compile Include="Assets\Scripts\SelectWeapon.cs" />
+     <Compile Include="Assets\Scripts\ShootSceneController.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\Low Poly Car Set 2 - Tuningcars\readme.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />

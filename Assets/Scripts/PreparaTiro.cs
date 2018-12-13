@@ -21,6 +21,6 @@ public class PreparaTiro : MonoBehaviour {
 	}
 	public void AcertouMiseravi(){
 		tiro.Play();
-		SceneManager.LoadScene("Ganhou");
+		SceneManager.LoadScene("ShotScene");
 	}
 }

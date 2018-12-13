@@ -82,7 +82,7 @@ public class AutoWalkCar : MonoBehaviour {
 	void FixedUpdate () //fixed update is more physics realistic
 	{
 		if(placar>9){
-			Chegada.GetComponent<Collider>().enabled=true;
+			Chegada.gameObject.SetActive(true);;
 			Hint.gameObject.SetActive(true);
 			Objetivos.gameObject.SetActive(false);
 		}
